@@ -4,7 +4,7 @@ steps:
   id: 'Build Docker Image'
 
   # images:
-  # - 'asia-south11-docker.pkg.dev/My first Project 17342 /gke-repo/quickstart-image'
+  # - 'asia-south11-docker.pkg.dev/My first Project 17342/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'us-central1-docker.pkg.dev/My first Project 17342/gke-repo/quickstart-image' ]
@@ -15,10 +15,10 @@ steps:
   id: 'Build Docker Image2'
 
   # images:
-  # - 'asia-south1-docker.pkg.dev/My first Project 17342 /gke-repo/quickstart-image'
+  # - 'asia-south1-docker.pkg.dev/My first Project 17342/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/My first Project 17342 /gke-repo/flask-image' ]
+  args: ['push', 'us-central1-docker.pkg.dev/My first Project 17342/gke-repo/flask-image' ]
   id: 'Push Docker Image2'
 
 
