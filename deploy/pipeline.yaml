@@ -12,4 +12,4 @@ serialPipeline:
     # - dev
   - targetId: prod
   #   profiles:
-  #   - prod
+  #   - prod1
