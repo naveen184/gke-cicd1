@@ -10,4 +10,4 @@ manifests:
 deploy:
   kubectl: {}
   logs:
-    prefix: container
+    prefix: containers
